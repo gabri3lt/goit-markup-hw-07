@@ -531,7 +531,7 @@
           <h2 class="form-heading">Zostaw swoje dane w formularzu poniżej</h2>
           <div class="form-group">
             <div class="form-area">
-              <label class="form-area-title">Imię</label>
+              <label class="form-area-title" for="name">Imię</label>
               <div class="form-inner-area">
                 <input class="form-inp" type="text" name="name" id="name" />
                 <svg class="form-icon" width="12" height="12">
@@ -542,7 +542,7 @@
               </div>
             </div>
             <div class="form-area">
-              <label class="form-area-title">Telefon</label>
+              <label class="form-area-title" for="tel">Telefon</label>
               <div class="form-inner-area">
                 <input class="form-inp" type="tel" name="tel" id="tel" />
                 <svg class="form-icon" width="12" height="12">
@@ -553,7 +553,7 @@
               </div>
             </div>
             <div class="form-area">
-              <label class="form-area-title">Email</label>
+              <label class="form-area-title" for="email">Email</label>
               <div class="form-inner-area">
                 <input class="form-inp" type="email" name="email" id="email" />
                 <svg class="form-icon" width="12" height="12">
@@ -564,12 +564,13 @@
               </div>
             </div>
             <div class="form-area">
-              <label class="form-area-title">Komentarz</label>
+              <label class="form-area-title" for="comment">Komentarz</label>
               <div class="form-inner-area">
                 <textarea
                   class="form-comment"
                   type="text"
                   name="comment"
+                  id="comment"
                   placeholder="Wprowadź tekst"
                 ></textarea>
               </div>
@@ -577,9 +578,9 @@
           </div>
           <div class="form-group">
             <label class="form-check-box">
-              <input class="checkmark" type="checkbox" />
+              <input class="checkmark" type="checkbox" name="checkmark" />
               <span class="form-checkmark"></span>
-              <svg class="checkmark-icon" width="12" height="6">
+              <svg class="checkmark-icon" width="12" height="12">
                 <use
                   href="https://gabri3lt.github.io/goit-markup-hw-06/images/SVG/icons.svg#icon-checked"
                 ></use>
