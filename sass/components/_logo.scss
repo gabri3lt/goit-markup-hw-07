@@ -1,0 +1,42 @@
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2rem;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  max-width: 200px;
+  margin-right: 33%;
+  color: var(--color2);
+}
+
+.foot__logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2rem;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  max-width: 200px;
+  margin-right: 33%;
+  color: var(--color3);
+}
+
+.logo:visited,
+.logo:focus,
+.logo:link {
+  text-decoration: none;
+  color: var(--color2);
+}
+
+.foot__logo:visited,
+.foot__logo:focus,
+.foot__logo:link {
+  text-decoration: none;
+  color: var(--color3);
+}
+
+.logo__label {
+  color: var(--color4);
+  text-decoration: none;
+}
