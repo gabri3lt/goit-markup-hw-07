@@ -23,7 +23,7 @@
     1px 4px 6px var(--shadow3);
 }
 
-.portfolio-card:hover .overlay {
+.portfolio-card:hover .portfolio-card__overlay {
   transform: translatey(0);
 }
 

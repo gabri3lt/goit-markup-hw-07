@@ -64,7 +64,7 @@
   border-radius: 2px;
 }
 
-.link_portfolio_active {
+.menu-nav__link--portfolio-active {
   position: relative;
   font-family: "Roboto";
   font-weight: 500;
@@ -78,11 +78,11 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link_portfolio_active:hover {
+.menu-nav__link--portfolio-active:hover {
   color: var(--color4);
 }
 
-.link_portfolio_active::after {
+.menu-nav__link--portfolio-active::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -92,7 +92,7 @@
   background-color: var(--color4);
   border-radius: 2px;
 }
-.menu__contact {
+.menu-contact {
   display: flex;
   flex-grow: 1;
   max-width: 400px;
