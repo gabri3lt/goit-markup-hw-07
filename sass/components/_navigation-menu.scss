@@ -6,33 +6,20 @@
   gap: 46px;
   list-style: none;
   margin-left: 73px;
-}
-
-.menu-contact__link {
-  text-decoration: none;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1rem;
-  letter-spacing: 0.02em;
-  color: var(--color5);
-  transition: color 250ms ease, fill 250ms ease, stroke 250ms ease;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.menu-nav__link {
-  position: relative;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1rem;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  color: var(--color1);
-  text-decoration: none;
-}
-
-.menu-nav__link:hover {
-  color: var(--color4);
+  &__link {
+    position: relative;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: var(--color1);
+    text-decoration: none;
+    &:hover {
+      color: var(--color4);
+    }
+  }
 }
 
 .menu-nav__link--agencja-active {
@@ -100,14 +87,24 @@
   justify-items: baseline;
   gap: 30px;
   list-style: none;
-}
 
-.menu-contact__link:hover {
-  color: var(--color4);
-  fill: var(--color4);
-  stroke: var(--color4);
-}
-
-.menu-contact__icon {
-  vertical-align: middle;
+  &__link {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    color: var(--color5);
+    transition: color 250ms ease, fill 250ms ease, stroke 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      color: var(--color4);
+      fill: var(--color4);
+      stroke: var(--color4);
+    }
+  }
+  &__icon {
+    vertical-align: middle;
+  }
 }

@@ -8,27 +8,27 @@
   max-width: 200px;
   margin-right: 33%;
   color: var(--color2);
+
+  &__label {
+    color: var(--color4);
+    text-decoration: none;
+  }
+
+  &:visited,
+  &:focus,
+  &:link {
+    text-decoration: none;
+    color: var(--color2);
+  }
 }
 
 .foot-wrapper__logo {
   color: var(--color3);
-}
 
-.logo:visited,
-.logo:focus,
-.logo:link {
-  text-decoration: none;
-  color: var(--color2);
-}
-
-.foot-wrapper__logo:visited,
-.foot-wrapper__logo:focus,
-.foot-wrapper__logo:link {
-  text-decoration: none;
-  color: var(--color3);
-}
-
-.logo__label {
-  color: var(--color4);
-  text-decoration: none;
+  &:visited,
+  &:focus,
+  &:link {
+    text-decoration: none;
+    color: var(--color3);
+  }
 }
